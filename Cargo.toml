@@ -1,0 +1,15 @@
+[package]
+name = "z3-sys"
+version = "0.5.0"
+authors = ["Graydon Hoare <graydon@pobox.com>", "Bruce Mitchener <bruce.mitchener@gmail.com>"]
+
+description = "Low-level rust-bindgen bindings for the Z3 SMT solver from Microsoft Research"
+license = "MIT"
+keywords = ["FFI", "SMT", "satisfiability", "solver"]
+categories = ["external-ffi-bindings"]
+readme = "README.md"
+documentation = "https://docs.rs/z3-sys/"
+homepage = "https://github.com/prove-rs/z3.rs"
+repository = "https://github.com/prove-rs/z3.rs.git"
+
+[dependencies]
